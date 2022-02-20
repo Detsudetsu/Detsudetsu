@@ -1,7 +1,7 @@
 # Recent Posts (ja)
 
-<!--[START github.com/ikawaha/feedsnippet]--><!--[2022-02-20T11:47:59Z]-->
-* ![](./icon/zenn.png)[Twitterの興味関心のチェックを全部外す](https://zenn.dev/detsu/articles/6e7c1ef636d8e2)
-* ![](./icon/zenn.png)[PyPIパッケージのリリースもバージョニングもGitHub単独で完結させる](https://zenn.dev/detsu/articles/5d74bf72e96a0f)
+<!--[START github.com/ikawaha/feedsnippet]--><!--[2022-02-20T11:54:40Z]-->
+* [PostgreSQL の演算子「?」が GORM のプレースホルダとバッティングするんだが](https://zenn.dev/ikawaha/articles/20220113-bb7328a9f89925)
+* [NULL な hstore には何を足しても NULL](https://zenn.dev/ikawaha/articles/20211222-faf856de926326)
 <!--[END github.com/ikawaha/feedsnippet]-->
 
