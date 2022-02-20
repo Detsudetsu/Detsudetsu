@@ -1,9 +1,10 @@
 - urls:
-    - https://qiita.com/detsu/feed
     - https://zenn.dev/detsu/feed
+    - https://qiita.com/detsu/feed
   template: |-
     {{range . -}}
-      * {{ if eq .Header.FeedLink "https://zenn.dev/detsu/feed" -}}
+      * {{ .Header.FeedLink }}
+        {{- if eq .Header.FeedLink "https://zenn.dev/detsu/feed" -}}
             ![](./icon/zenn.png)
         {{- else if eq .Header.FeedLink "https://qiita.com/detsu/feed" -}}
             ![](./icon/qiita.png)
