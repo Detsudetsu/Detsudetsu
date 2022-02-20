@@ -1,4 +1,5 @@
 - urls:
+    - https://zenn.dev/ikawaha/feed
     - https://zenn.dev/detsu/feed?include_scraps=1
     - https://qiita.com/detsu/feed
   template: |-
@@ -10,5 +11,5 @@
         {{- end }}{{ end -}}
       [{{ .Title }}]({{ .Link }})
     {{ end }}
-  limit: 5
+  limit: 50
   sort_by_published: true
