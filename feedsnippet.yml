@@ -1,5 +1,5 @@
 - urls:
-    - https://zenn.dev/cumet04/feed
+    - https://zenn.dev/detsu/feed?include_scraps=1
     - https://qiita.com/detsu/feed
   template: |-
     {{range . -}}
