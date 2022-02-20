@@ -1,15 +1,13 @@
 - urls:
-    - https://qiita.com/detsu/feed
-    - https://zenn.dev/detsu/feed
-    - https://qiita.com/ikawaha/feed
     - https://zenn.dev/ikawaha/feed
+    - https://qiita.com/ikawaha/feed
   template: |-
     {{range . -}}
-      * {{ if eq .Header.FeedLink "https://zenn.dev/detsu/feed" -}}
+      * {{ if eq .Header.FeedLink "https://zenn.dev/ikawaha/feed" -}}
             ![](./icon/zenn.png)
-        {{- else if eq .Header.FeedLink "https://qiita.com/detsu/feed" -}}
+        {{- else }}{{ if eq .Header.FeedLink "https://qiita.com/ikawaha/feed" -}}
             ![](./icon/qiita.png)
-        {{- end -}}
+        {{- end }}{{ end -}}
       [{{ .Title }}]({{ .Link }})
     {{ end }}
   limit: 100
