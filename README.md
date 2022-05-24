@@ -1,4 +1,4 @@
-# Recent Posts (🇯🇵)
+# Recent Posts (ja)
 
 <!--[START github.com/ikawaha/feedsnippet]--><!--[2022-02-20T12:51:00Z]-->
 **Zenn**
